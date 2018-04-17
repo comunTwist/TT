@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    color: #f1d881;
+    margin: 0px;
+    padding: 0px;
+    background: #B8860B;
+}
+h3{
+    text-align:center;
+}
+.form{
+    text-align:center;
+}
+
+table {
+    margin: auto;
+    font-size: 16px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+
+td {
+    border-top: 1px solid #f1d881;
+    padding: 10px 10px;
+}
+
+th {
+    padding: 10px 10px;
+}
