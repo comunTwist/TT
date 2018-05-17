@@ -1,31 +1,64 @@
 body {
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #f1d881;
     margin: 0px;
     padding: 0px;
     background: #B8860B;
 }
-h3{
+h3, .ok, .err, .num{
     text-align:center;
 }
 .form{
+    margin-top: 10px;
     text-align:center;
 }
 
 table {
     margin: auto;
-    font-size: 16px;
+    font-size: 12px;
     border-spacing: 0px;
     border-collapse: collapse;
     empty-cells: hide;
+    background: #FFF;
 }
 
 td {
-    border-top: 1px solid #f1d881;
-    padding: 10px 10px;
+    border: 2px solid #CCC;
+    color: #000;
 }
 
 th {
-    padding: 10px 10px;
+    padding: 2px;
+    color: #000;
+    background: #5595a6;
+}
+
+.ok{
+   background: #7dbb81;
+}
+
+.err{
+   background: #d85b5b;
+}
+
+.num {
+   min-width: 50px;
+}
+
+.checkName {
+   min-width: 400px;
+}
+
+.status {
+   min-width: 70px;
+}
+
+.condition {
+   min-width: 100px;
+}
+
+.delimiter {
+   padding: 7px;
+   background: #DDD;
 }

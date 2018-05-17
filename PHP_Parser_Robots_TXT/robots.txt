@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /go-to.php
+Host: http://vitoff.net
+Host: http://vitoff.net
+Sitemap: http://vitoff.net/sitemap.xml
+
+

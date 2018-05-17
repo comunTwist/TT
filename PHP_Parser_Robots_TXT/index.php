@@ -15,7 +15,7 @@ if (isset($_GET['domain'])) {
 	$table = 'table.php';
 	if (isset($_GET['report'])){
 		header('Content-Type: application/vnd.ms-excel; charset=utf-8');
-		header("Content-Disposition: attachment;filename=".date("d-m-Y")."-report.xls");
+		header("Content-Disposition: attachment;filename=".date("d-m-Y")."-report.xlsx");
 		header("Content-Transfer-Encoding: binary ");
 	}
 } else {
@@ -42,8 +42,41 @@ if(!isset($scheme)) {
 	}
 }
 $robots = $domain."/robots.txt";
-$headers = get_headers($robots);
+$headers = get_headers($robots, 1);
 $contents = file_get_contents($robots);
+$data = array(
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+	array(
+		'status' => '',
+		'condition' => '',
+		'chit' => '',
+	),
+
+);
 ?>
 
 <h3><?php echo $head; ?></h3>
