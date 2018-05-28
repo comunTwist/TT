@@ -1,0 +1,189 @@
+body {
+    background: url("/public/images/bn.png") no-repeat #cad8c5;
+    background-position: 60% 0%;
+    color: #974d26;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+a{
+    color: #974d26;
+}
+a:hover{
+    color: #fff;
+}
+th, td{
+    padding: 4px 15px;
+}
+th{
+    text-align: left;
+}
+td{
+    text-align: center;
+}
+#navbar, #logo, #pageNav, #wrapper {
+    margin: auto;
+    width: 1106px;
+}
+#wrapperAssociate{
+    max-width: 800px;
+    margin: auto;
+}
+#pageNav{
+    padding: 4px;
+    text-align: center;
+}
+
+#listLink, #domLink {
+    width: 130px;
+}
+
+#listLink, #domLink {
+    padding: 4px;
+    text-align: center;
+    border: 1px solid rgb(244, 202, 149);
+    background-color: rgba(244, 202, 149, 0.7);
+    border-radius: 5px 5px 0px 0px;
+}
+
+#listLink:hover, #domLink:hover, #search button:hover, #search select:hover {
+    background-color: rgba(244, 202, 149, 1);
+}
+
+#search {
+    position: absolute;
+    width: 600px;
+    height: 30px;
+    margin: auto;
+    left: 440px;
+    top: 0px;
+
+}
+
+#search select {
+    padding-right: 20px;
+}
+
+#search input {
+    width: 250px;
+    height: 28px;
+    border-radius: 0px 0px 5px 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#search select, #search button {
+    height: 30px;
+    border: 1px solid rgb(244, 202, 149);
+    background-color: rgba(244, 202, 149, 0.7);
+    border-radius: 0px 0px 5px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #974d26;
+    text-align: center;
+}
+
+#search select {
+    width: 130px;
+    padding-right: 20px;
+    background: url("/public/images/select.png") no-repeat rgba(244, 202, 149, 0.7);
+    background-position: 95% 50%;
+}
+
+#navbar {
+    display: table;
+}
+
+.cell:first-of-type {
+    width: 130px;
+}
+
+.cell {
+    padding-right: 1px;
+    display: table-cell;
+}
+
+.th, .td {
+    margin: 3px 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    vertical-align: center;
+}
+
+.th {
+    margin-top: 1px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.th {
+    display: flex;
+    border: 1px solid rgb(244, 202, 149);
+    background-color: rgba(244, 202, 149, 0.7);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.td {
+    border: 1px solid rgb(253, 234, 207);
+    background-color: rgba(253, 234, 207, 0.7);
+}
+
+.th div form button {
+    height: 30px;
+    width: 21px;
+    background: url("/public/images/sort.png");
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.th div form button:hover {
+    background: url("/public/images/sort-hover.png");
+}
+
+.fullName {
+    width: 350px;
+}
+.position {
+    width: 250px;
+}
+
+.employmentDate {
+    width: 150px;
+}
+
+.salary {
+    width: 200px;
+}
+
+.card {
+    width: 150px;
+}
+.positionAssociate{
+    border: 1px solid rgb(244, 202, 149);
+    background-color: rgba(244, 202, 149, 0.7);
+}
+.th .fullName, .position, .employmentDate, .salary, .card {
+    text-align: center;
+}
+
+.fullName, .position, .employmentDate, .salary, .card {
+    display: table-cell;
+}
+
+.header {
+    margin: auto 4px;
+}
+
+.sort {
+}
+
+.cover {
+    display: inline-flex;
+    margin: auto;
+}
